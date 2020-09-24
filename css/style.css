@@ -70,7 +70,8 @@ table{
 .colhead{
   background-color: #7e0820;
   color: #FFFFFF;
-  column-width: 125px;
+  /*column-width: 125px;*/
+  min-width: 125px;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
@@ -145,6 +146,8 @@ tbody tr:last-child td:last-child{
 footer{
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
   min-height: 75px;
   width:100%;
   background:#000000;
