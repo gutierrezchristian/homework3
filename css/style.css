@@ -13,11 +13,12 @@ body{
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
-  background-color: #DDDDDD;
-  background-image: url(/images/pigeon-background.JPEG);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /*background-color: #DDDDDD;*/
+  /*background-image: url("../images/pigeon-background.JPEG");*/
+  background: url("../images/pigeon_background.JPEG") #DDDDDD;
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
 }
 
 main{
@@ -75,13 +76,13 @@ table{
   border-right: 2px solid #000000;
 }
 
-tr:nth-child(odd){
+tr:nth-child(even){
   background-color: #D1D1D1;
 }
 
-tr:nth-child(even){
+/*tr:nth-child(even){
   background-color: transparent;
-}
+}*/
 
 tr:hover {
   background-color: rgb(126,8,48,.25);
@@ -91,6 +92,7 @@ td, th{
   border-top: 200px solid #000000;
   padding: 10px;
   text-align: center; 
+  background: chartreuse;
 }
 /**{}*/
 
