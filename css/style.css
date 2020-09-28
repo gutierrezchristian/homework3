@@ -144,7 +144,7 @@ tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
 }
 
-footer p{
+footer{
   position: absolute;
   bottom: 0;
   min-height: 75px;
@@ -152,5 +152,9 @@ footer p{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+}
+
+footer p{
+  text-align: center;
 }
 
